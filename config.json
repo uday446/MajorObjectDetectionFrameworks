@@ -1,0 +1,20 @@
+{
+  "filename": "inputImage.jpg",
+  "yolov5weights" : "yolo/My_model/Yolov5s/best.pt",
+  "yolov5output_name" : "yolov5s.jpg",
+  "yolov5moutput_name" : "yolov5m.jpg",
+  "yolov5mweights" : "yolo/My_model/Yolov5m/best.pt",
+  "img" : "yolo/inference/images/inputImage.jpg",
+  "modelretina" : "retinanet_R_50_FPN_3x.yaml",
+  "yamlpathretina" : "Detect2/Retinanet_r50_3x/retinanet_R_50_FPN_3x.yaml",
+  "weightretina" : "Detect2/Retinanet_r50_3x/model_final_5bd44e.pkl",
+  "outputretina" : "retinanet.jpg",
+  "modelrcnn" : "faster_rcnn_R_50_FPN_1x.yaml",
+  "yamlpathrcnn" : "Detect2/Faster_rcnn_r50/faster_rcnn_R_50_FPN_1x.yaml",
+  "weightrcnn" : "Detect2/Faster_rcnn_r50/model_final_b275ba.pkl",
+  "outputrcnn" : "fasterrcnn.jpg",
+  "modelresnet" : "tf2od/my_model/Resnet50v1/saved_model",
+  "outputresnet" : "tf2od/output/Resnet.jpg",
+  "modelefficient" : "tf2od/my_model/Efficientdet_d0/saved_model",
+  "outputefficient" : "tf2od/output/Efficientnet.jpg"
+}
